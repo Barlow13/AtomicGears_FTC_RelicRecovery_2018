@@ -29,7 +29,9 @@ public class RedCornerMulti extends OpMode {
     Vision vision = new Vision();
 
     enum State {
-        Start, DetectPicture , DriveOff , drive, square, Turn , AlignToCryptobox , PlaceFirstGylph , PLaceGylph, push, GetMoreGylphs, ComeBack, HitBox, PlaceMoreGylphs, Jitter, Jitter2, JewelArm, KnockOffJewel, SquareUpAgain, DriveForwardMore, BackOff, Straighten, RamPile, hitbox, placegylph, Recenter, DriveBack, GetGylphs, align, StrafeToPad, CenterPit, EnterPit, fixgylph, CenterBox, ExitPit, Kill
+        Start, DetectPicture , drive, AlignToCryptobox ,JewelArm, KnockOffJewel,
+        BackOff,placegylph, Recenter, DriveBack,align, StrafeToPad, CenterPit,
+        EnterPit,CenterBox, ExitPit, Kill
     }
 
     State state;

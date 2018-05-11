@@ -30,7 +30,9 @@ public class RedCorner extends OpMode {
     Vision vision = new Vision();
 
     enum State {
-        Start, DetectPicture , DriveOff , drive, square, Turn , AlignToCryptobox , PlaceFirstGylph , PLaceGylph, push, GetMoreGylphs, ComeBack, HitBox, PlaceMoreGylphs, Jitter, Jitter2, JewelArm, KnockOffJewel, SquareUpAgain, DriveForwardMore, DriveOffBalancingStone, Straighten, Align, TurnSideWays, PutItInTheHole, BackOffBox, Kill
+        Start, DetectPicture ,square, AlignToCryptobox , push, GetMoreGylphs,
+        JewelArm, KnockOffJewel,DriveForwardMore, DriveOffBalancingStone, Straighten,
+        Align, TurnSideWays, PutItInTheHole, BackOffBox, Kill
     }
 
     State state;

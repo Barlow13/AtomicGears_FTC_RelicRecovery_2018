@@ -30,7 +30,8 @@ public class BlueMiddle extends OpMode {
     Vision vision = new Vision();
 
     enum State {
-        Start, DetectPicture , DriveOff , drive, square, Turn , AlignToCryptobox , PlaceFirstGylph , PLaceGylph, push, GetMoreGylphs, ComeBack, HitBox, PlaceMoreGylphs, Jitter, Jitter2, JewelArm, KnockOffJewel, SquareUpAgain, DriveForwardMore, BackOff, Straighten, Kill
+        Start, DetectPicture , DriveOff , drive, square, Turn , AlignToCryptobox , PlaceFirstGylph ,
+        PLaceGylph, push,JewelArm, KnockOffJewel,BackOff, Straighten, Kill
     }
 
     State state;
